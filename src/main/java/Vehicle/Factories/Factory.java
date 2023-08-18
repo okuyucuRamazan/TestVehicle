@@ -46,7 +46,7 @@ public class Factory {
     public void createCraneTruck(String type, int chasssis, String color, double weight, int numberOfDoors) {
         CraneTruck craneTruck = new CraneTruck(type, chasssis, color, weight, numberOfDoors);
         craneTrucks.add(craneTruck);
-        System.out.println("__________________________________");
+        System.out.println("__________________________________-");
     }
 
     public void createTowTruck(String type, int chasssis, String color, double weight, int numberOfDoors) {

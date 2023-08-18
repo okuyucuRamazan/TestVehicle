@@ -5,7 +5,7 @@ public abstract class Vehicle {
     public String color;
     public double weight;
     public int numberOfDoors;
-    public int chassis;
+    public int chassis;//gereksiz
 
     public void drive() {
 

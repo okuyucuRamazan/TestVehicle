@@ -3,9 +3,9 @@ package Vehicle.Vehicles;
 import Vehicle.Vehicle;
 
 public class Truck extends Vehicle {
-    public Truck(){
+public Truck(){
 
-    }
+}
     public Truck(String type, int chassis, String color, double weight, int numberOfDoors){
 
     }

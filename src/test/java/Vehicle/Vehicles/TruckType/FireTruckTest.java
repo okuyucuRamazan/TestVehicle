@@ -18,7 +18,7 @@ public class FireTruckTest {
 
     @Test
     public void testGetWaterLitre() {
-        assertEquals(500, fireTruck.getWaterLitre(), 0.01); // Floating-point precision
+        assertEquals(500, fireTruck.getWaterLitre(), 0.01);
     }
 
     @Test

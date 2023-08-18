@@ -14,6 +14,8 @@ public class FireTruck extends Truck {
         this.waterLitre = waterLitre;
     }
 
+//    private boolean specialMakeSignal;
+// Variable olması daha mı mantıklı
     public void specialMakeSignal(int chassis) {
         System.out.println("Chassis No: " + chassis + ", I'm Fire Truck and I can make SPECIAL signal");
     }
